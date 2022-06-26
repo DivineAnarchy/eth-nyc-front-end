@@ -1,0 +1,95 @@
+.outer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.graySpace {
+    background-color: #747474;
+    opacity: 0.64;
+    height: 27vh;
+    width: 100vw;
+}
+
+.confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 54vh;
+    width: 100vw;
+    z-index: 5;
+    background-color: #FFFFFF;
+}
+
+.confirmContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100vw;
+    background-color: #7342DC;
+}
+
+.confirmLeft {
+    color: white;
+    text-align: start;
+    width: 372px;
+    margin: 0 50px;
+}
+
+.confirmLeft h1 {
+    font: normal normal bold 50px/61px Montserrat;
+    font-size: 50px;
+}
+
+.confirm p {
+    font: normal normal bold 16px/19px Montserrat;
+    font-size: 16px;
+}
+
+.confirmRight {
+    width: 340px;
+    margin: 0 50px;
+}
+
+.maticPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.maticPrice span {
+    font: normal normal bold 17px/20px Montserrat;
+}
+
+.maticPriceContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 34px;
+    border-radius: 22px;
+    color: #7342DC;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 32px 0 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #dedede;
+    transition: all .22s ease-in;
+}

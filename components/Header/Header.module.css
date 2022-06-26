@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9C9AD862;
+    padding: 40px 110px 0 110px;
+    min-height: 10vh;
+    max-height: 10vh;
+}
+
+.logout {
+    background-color: #7342DC;
+    width: 100px;
+    height: 30px;
+    border-radius: 22px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+.logout:hover {
+cursor: pointer;
+background-color: #5325b3;
+transition: background .22s ease-in;
+}

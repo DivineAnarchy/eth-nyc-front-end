@@ -1,0 +1,21 @@
+.connect h1 {
+  color: #250665;
+  font: normal normal bold 50px/61px 'Montserrat';
+}
+
+.button {
+    background-color: #7342DC;
+    width: 345px;
+    height: 43px;
+    border-radius: 22px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: #5325b3;
+    transition: background .22s ease-in;
+  }

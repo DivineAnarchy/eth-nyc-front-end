@@ -1,0 +1,177 @@
+.equip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.inventoryContainer {
+    background-color: #FFFFFF;
+    border-radius: 33px;
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.inventoryHeader {
+    display: flex;
+    align-items: center;
+    margin-top: 59px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.inventoryHeader h2 {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 24px;
+    color: #250665;
+}
+
+.accordian {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 51px !important;
+    text-align: start;
+    margin: 0 20px;
+}
+
+.inputItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 215px;
+    margin: 5px 0;
+}
+
+.inputItem span {
+    color: #250665;
+    font: italic normal normal 14px/16px Helvetica;
+}
+
+.accordianItemContent {
+    overflow-y: auto;
+    max-height: 120px;
+    padding-left: 20px !important;
+    max-width: 270px !important;
+    min-width: 270px !important;
+    padding-right: 10px !important;
+}
+
+.accordianItemContent textarea {
+    background-color: #EAEAEA;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-style: oblique;
+}
+
+.accordianItemContent::-webkit-scrollbar-track {
+    background-color: #E5E5E5;
+    border-radius: 9px;
+}
+
+.accordianItemContent::-webkit-scrollbar-thumb {
+    background-color: #7342DC;
+}
+
+.accordianItemContent::-webkit-scrollbar-thumb:hover {
+    background-color: #532ea3;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica !important;
+    font-size: 18px !important;
+    font-weight: Bold !important;
+    width: 250px;
+    padding-left: 20px !important;
+    color: #250665 !important;
+}
+
+.title:hover {
+    background-color: #EAEAEA;
+    border-radius: 7px;
+}
+
+.dropdownIcon {
+    transition: all 0.3s ease-in !important;
+    font-size: 1.5em !important;
+    color: #7342DC;
+}
+
+.back {
+    margin-left: 31px;
+    margin-right: 17px;
+    height: 21px;
+}
+
+.back:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.pollyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 33px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.polly {
+    width: 266px;
+    text-align: start;
+}
+
+.pollyTitle {
+    display: flex;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.pollyTitle img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.pollyTitle h2 {
+    margin: 0;
+    margin-left: 10px;
+    font: normal normal bold 24px/29px 'Montserrat';
+    color: #250665;
+}
+
+.button {
+    background-color: #7342DC;
+    width: 266px;
+    height: 34px;
+    border-radius: 22px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: #5325b3;
+    transition: background .22s ease-in;
+  }
